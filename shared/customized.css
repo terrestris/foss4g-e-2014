@@ -1,0 +1,99 @@
+.reveal section img.plain {
+    background: none;
+    border-width: 0;
+    box-shadow: none;
+}
+
+.reveal section img.contrast {
+    background-color: #fff;
+    border: 10px solid #fff;
+    box-shadow: 0 0 10px 10px #fff;
+    border-radius: 5px;
+}
+
+.reveal section h2 {
+    border-bottom: 1px inset #333;
+    margin-bottom: 0.5em;
+}
+
+.reveal section p.subtle {
+    margin-top: 5em;
+}
+
+.reveal section p.subtle a {
+    font-size: smaller;
+}
+
+.reveal section div.split-info {
+    margin: 5px;
+    clear: both;
+}
+
+.reveal section div.part,
+.reveal section div.smallpart,
+.reveal section div.bigpart {
+    margin: 5px;
+    float: left;
+}
+.reveal section div.part {
+    width: 48%;
+}
+
+.reveal section div.smallpart {
+	width: 28%;
+}
+
+.reveal section div.bigpart {
+	width: 68%;
+}
+.reveal section div.part .enumeration {
+    text-align: left;
+}
+
+.reveal section a.twitter,.reveal section a.github {
+	display: inline;
+    padding-left: 1.2em;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    /* background-size: contain; */
+    background-size: 1.0em;
+}
+
+.reveal section a.github {
+    background-image: url("images/github-logo-outline.png");
+}
+
+.reveal section a.twitter {
+    background-image: url("images/twitter-logo-outline.png");
+}
+
+.reveal section .highlight {
+	text-shadow: 0 0 20px orange
+}
+
+.reveal section .unhighlight {
+    opacity: 0.7;
+}
+
+.reveal section .force-lowercase {
+	text-transform:lowercase;
+}
+
+.reveal code.small {
+  font-size: 0.8em;
+  line-height: 1.2em;
+}
+
+.reveal section #books div {
+	float: left;
+	width: 33%
+}
+
+.reveal section #ie-evolution {
+	margin-top: 30px;
+	text-align: center;
+}
+.reveal section #ie-evolution div {
+    float: left;
+    width: 50%
+}
