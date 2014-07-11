@@ -1,0 +1,1367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Barriefreie Toiletten in Bremen</name>
+  <description><![CDATA[Hier finden Sie barrierefreie Toiletten in Bremen. Aufgeführt sind die öffentlich zugänglichen, behindertengerechten Toiletten der senatorischen Dienststellen Bremens.]]></description>
+  <Style id="style56">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style49">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style79">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style8">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style35">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style33">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style45">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style60">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style13">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style76">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style58">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style19">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style40">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style36">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style51">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style62">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style21">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style57">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style42">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style30">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style78">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style20">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style17">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style44">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style67">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style65">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style34">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style6">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style23">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style11">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style72">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style68">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style52">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style25">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style73">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style15">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style66">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style43">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style12">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style16">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style69">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style10">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style75">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style24">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style14">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style47">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style37">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style32">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style63">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style77">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style48">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style29">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style70">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style61">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style22">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style39">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style74">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style80">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style46">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style28">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style64">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style59">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style71">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style18">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style41">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style31">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style53">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style26">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style9">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style27">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style38">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style54">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style50">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Style id="style55">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible_maps.png</href>
+      </Icon>
+      <scale>1.200000</scale>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>Stresemannstraße</name>
+    <Snippet>Senator fuer Inneres Stadtamt Stresemannstrasse 48 Mo 7:00-18:00 Di 7:00-15:00 U</Snippet>
+    <description><![CDATA[Senator fuer Inneres Stadtamt Stresemannstrasse 48 Mo 7:00-18:00 Di 7:00-15:00 Uhr Mi +Fr 7:00-12:00 Do 7:00-17:00 Uhr behindertengerecht]]></description>
+    <styleUrl>#style56</styleUrl>
+    <Point>
+      <coordinates>8.865194,53.070824,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Funkschneise</name>
+    <Snippet>Senator fuer Inneres Stadtamt Funkschneise 5-7 Mo Di Do Fr 08:00-12:00 Uhr behin</Snippet>
+    <description><![CDATA[Senator fuer Inneres Stadtamt Funkschneise 5-7 Mo Di Do Fr 08:00-12:00 Uhr behindertengerecht]]></description>
+    <styleUrl>#style49</styleUrl>
+    <Point>
+      <coordinates>8.908357,53.049309,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Pelzerstraße</name>
+    <Snippet>Buerger-Service-Center Mitte Pelzerstrasse 40 Mo Di Do Fr 07:30-18:30 Mi 07:30-1</Snippet>
+    <description><![CDATA[Buerger-Service-Center Mitte Pelzerstrasse 40 Mo Di Do Fr 07:30-18:30 Mi 07:30-13:00 Sa 09:00-13:00 Uhr behindertengerecht]]></description>
+    <styleUrl>#style79</styleUrl>
+    <Point>
+      <coordinates>8.806575,53.077923,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Obernstraße</name>
+    <Snippet>Stadtamt Obernstrasse 39-43 Mo-Fr 09:00 - 15:00 Uhr behindertengerecht</Snippet>
+    <description><![CDATA[Stadtamt Obernstrasse 39-43 Mo-Fr 09:00 - 15:00 Uhr behindertengerecht]]></description>
+    <styleUrl>#style8</styleUrl>
+    <Point>
+      <coordinates>8.804886,53.077530,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Hemelinger Heerstraße</name>
+    <Snippet>Bezirkssportanlage Hemelingen Hemelinger Heerstrasse 112 Oeffnungszeiten abh. vo</Snippet>
+    <description><![CDATA[Bezirkssportanlage Hemelingen Hemelinger Heerstrasse 112 Oeffnungszeiten abh. von Sportbetrieb behindertengerecht]]></description>
+    <styleUrl>#style35</styleUrl>
+    <Point>
+      <coordinates>8.903984,53.040092,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Jürgensdeich</name>
+    <Snippet>Rollsportstadion Juergensdeich 2 Oeffnungszeiten abh. von Sportbetrieb behindert</Snippet>
+    <description><![CDATA[Rollsportstadion Juergensdeich 2 Oeffnungszeiten abh. von Sportbetrieb behindertengerecht]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>8.848183,53.063171,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Volkmannstraße</name>
+    <Snippet>Bezirkssportanlage Sued Volkmannstrasse 10 Oeffnungszeiten abh. von Sportbetrieb</Snippet>
+    <description><![CDATA[Bezirkssportanlage Sued Volkmannstrasse 10 Oeffnungszeiten abh. von Sportbetrieb behindertengerecht]]></description>
+    <styleUrl>#style33</styleUrl>
+    <Point>
+      <coordinates>8.808814,53.055996,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Franz-Bömert-Straße</name>
+    <Snippet>Platz 11 am Weser-Stadion Franz-Boemert-Strasse 8 Oeffnungszeiten abh. von Sport</Snippet>
+    <description><![CDATA[Platz 11 am Weser-Stadion Franz-Boemert-Strasse 8 Oeffnungszeiten abh. von Sportbetrieb behindertengerecht]]></description>
+    <styleUrl>#style45</styleUrl>
+    <Point>
+      <coordinates>8.843075,53.064735,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Curiestraße</name>
+    <Snippet>Sportanlage Curiestrasse Curiestrasse 15 Oeffnungszeiten abh. von Sportbetrieb b</Snippet>
+    <description><![CDATA[Sportanlage Curiestrasse Curiestrasse 15 Oeffnungszeiten abh. von Sportbetrieb behindertengerecht]]></description>
+    <styleUrl>#style60</styleUrl>
+    <Point>
+      <coordinates>8.898319,53.108143,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Weg zum Krähenberg</name>
+    <Snippet>Sporthalle Stadtwerder Weg zum Kraehenberg 33a Oeffnungszeiten abh. von Sportbet</Snippet>
+    <description><![CDATA[Sporthalle Stadtwerder Weg zum Kraehenberg 33a Oeffnungszeiten abh. von Sportbetrieb behindertengerecht]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>8.828521,53.061562,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Hohweg</name>
+    <Snippet>Sporthalle Hohweg Hohweg 50 Oeffnungszeiten abh. von Sportbetrieb behindertenger</Snippet>
+    <description><![CDATA[Sporthalle Hohweg Hohweg 50 Oeffnungszeiten abh. von Sportbetrieb behindertengerecht]]></description>
+    <styleUrl>#style13</styleUrl>
+    <Point>
+      <coordinates>8.797561,53.111454,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Am Borgfelder Saatland</name>
+    <Snippet>Sporthalle Borgfeld Am Borgfelder Saatland 1 Oeffnungszeiten abh. von Sportbetri</Snippet>
+    <description><![CDATA[Sporthalle Borgfeld Am Borgfelder Saatland 1 Oeffnungszeiten abh. von Sportbetrieb behindertengerecht]]></description>
+    <styleUrl>#style76</styleUrl>
+    <Point>
+      <coordinates>8.899520,53.124325,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Burgwall</name>
+    <Snippet>Burgwall-Stadion Burgwall 2 Oeffnungszeiten abh. von Sportbetrieb behindertenger</Snippet>
+    <description><![CDATA[Burgwall-Stadion Burgwall 2 Oeffnungszeiten abh. von Sportbetrieb behindertengerecht]]></description>
+    <styleUrl>#style58</styleUrl>
+    <Point>
+      <coordinates>8.586435,53.187687,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Neustadtswall</name>
+    <Snippet>Suedbad Neustadtswall 81 Oeffnungszeiten unter www.bremer-baeder.de behinderteng</Snippet>
+    <description><![CDATA[Suedbad Neustadtswall 81 Oeffnungszeiten unter www.bremer-baeder.de behindertengerecht]]></description>
+    <styleUrl>#style19</styleUrl>
+    <Point>
+      <coordinates>8.796023,53.070923,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Koblenzer Straße</name>
+    <Snippet>OTeBad Koblenzer Strasse 3 Oeffnungszeiten unter www.bremer-baeder.de behinderte</Snippet>
+    <description><![CDATA[OTeBad Koblenzer Strasse 3 Oeffnungszeiten unter www.bremer-baeder.de behindertengerecht]]></description>
+    <styleUrl>#style40</styleUrl>
+    <Point>
+      <coordinates>8.961939,53.061745,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Kurt-Schumacher-Allee</name>
+    <Snippet>Vitalbad Vahr Kurt-Schumacher-Allee 5 Oeffnungszeiten unter www.bremer-baeder.de</Snippet>
+    <description><![CDATA[Vitalbad Vahr Kurt-Schumacher-Allee 5 Oeffnungszeiten unter www.bremer-baeder.de behindertengerecht]]></description>
+    <styleUrl>#style36</styleUrl>
+    <Point>
+      <coordinates>8.883789,53.078613,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Delfter Straße</name>
+    <Snippet>Hallenbad Huchting Delfter Strasse 22-24 Oeffnungszeiten unter www.bremer-baeder</Snippet>
+    <description><![CDATA[Hallenbad Huchting Delfter Strasse 22-24 Oeffnungszeiten unter www.bremer-baeder.de behindertengerecht]]></description>
+    <styleUrl>#style51</styleUrl>
+    <Point>
+      <coordinates>8.730007,53.048378,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Waller Heerstraße</name>
+    <Snippet>Westbad Waller Heerstrasse 239 A Oeffnungszeiten unter www.bremer-baeder.de behi</Snippet>
+    <description><![CDATA[Westbad Waller Heerstrasse 239 A Oeffnungszeiten unter www.bremer-baeder.de behindertengerecht]]></description>
+    <styleUrl>#style62</styleUrl>
+    <Point>
+      <coordinates>8.773673,53.110065,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fährgrund</name>
+    <Snippet>Freizeitbad Vegesack Faehrgrund 16 Oeffnungszeiten unter www.bremer-baeder.de be</Snippet>
+    <description><![CDATA[Freizeitbad Vegesack Faehrgrund 16 Oeffnungszeiten unter www.bremer-baeder.de behindertengerecht]]></description>
+    <styleUrl>#style21</styleUrl>
+    <Point>
+      <coordinates>8.612312,53.176525,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Schlossparkstraße</name>
+    <Snippet>Schlossparkbad Schlossparkstrasse 52 Oeffnungszeiten unter www.bremer-baeder.de </Snippet>
+    <description><![CDATA[Schlossparkbad Schlossparkstrasse 52 Oeffnungszeiten unter www.bremer-baeder.de behindertengerecht]]></description>
+    <styleUrl>#style57</styleUrl>
+    <Point>
+      <coordinates>8.901991,53.063938,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Achterdieksee</name>
+    <Snippet>Achterdieksee geoeffnet April-Oktober mit Euroschluessel behindertengerecht</Snippet>
+    <description><![CDATA[Achterdieksee geoeffnet April-Oktober mit Euroschluessel behindertengerecht]]></description>
+    <styleUrl>#style42</styleUrl>
+    <Point>
+      <coordinates>8.914230,53.080509,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bultensee</name>
+    <Snippet>Bultensee geoeffnet April-Oktober mit Euroschluessel behindertengerecht</Snippet>
+    <description><![CDATA[Bultensee geoeffnet April-Oktober mit Euroschluessel behindertengerecht]]></description>
+    <styleUrl>#style30</styleUrl>
+    <Point>
+      <coordinates>8.963885,53.075356,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Sportparksee</name>
+    <Snippet>Sportparksee Grambke geoeffnet April-Oktober mit Euroschluessel behindertengerec</Snippet>
+    <description><![CDATA[Sportparksee Grambke geoeffnet April-Oktober mit Euroschluessel behindertengerecht]]></description>
+    <styleUrl>#style78</styleUrl>
+    <Point>
+      <coordinates>8.698765,53.152695,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Stadtwaldsee</name>
+    <Snippet>Stadtwaldsee geoeffnet April-Oktober mit Euroschluessel behindertengerecht</Snippet>
+    <description><![CDATA[Stadtwaldsee geoeffnet April-Oktober mit Euroschluessel behindertengerecht]]></description>
+    <styleUrl>#style20</styleUrl>
+    <Point>
+      <coordinates>8.832397,53.108704,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Waller Feldmarksee</name>
+    <Snippet>Waller Feldmarksee geoeffnet April-Oktober mit Euroschluessel behindertengerecht</Snippet>
+    <description><![CDATA[Waller Feldmarksee geoeffnet April-Oktober mit Euroschluessel behindertengerecht]]></description>
+    <styleUrl>#style17</styleUrl>
+    <Point>
+      <coordinates>8.782884,53.127197,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Werdersee</name>
+    <Snippet>Werdersee geoeffnet April-Oktober mit Euroschluessel behindertengerecht</Snippet>
+    <description><![CDATA[Werdersee geoeffnet April-Oktober mit Euroschluessel behindertengerecht]]></description>
+    <styleUrl>#style44</styleUrl>
+    <Point>
+      <coordinates>8.825638,53.058918,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Walliser Straße</name>
+    <Snippet>Bezirkssportanalge Schevemoor Walliser Str. 121 Oeffnungszeiten abh. von Sportbe</Snippet>
+    <description><![CDATA[Bezirkssportanalge Schevemoor Walliser Str. 121 Oeffnungszeiten abh. von Sportbetrieb behindertengerecht]]></description>
+    <styleUrl>#style67</styleUrl>
+    <Point>
+      <coordinates>8.955234,53.069462,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Butjadinger Straße</name>
+    <Snippet>Sporthalle Butjadinger Strasse 21 Oeffnungszeiten abh. von Sportbetrieb behinder</Snippet>
+    <description><![CDATA[Sporthalle Butjadinger Strasse 21 Oeffnungszeiten abh. von Sportbetrieb behindertengerecht]]></description>
+    <styleUrl>#style65</styleUrl>
+    <Point>
+      <coordinates>8.824106,53.062012,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Hermann-Löns-Straße</name>
+    <Snippet>Sporthalle Kifkenbruch Hermann-Loens-Strasse 35 Oeffnungszeiten abh. von Sportbe</Snippet>
+    <description><![CDATA[Sporthalle Kifkenbruch Hermann-Loens-Strasse 35 Oeffnungszeiten abh. von Sportbetrieb behindertengerecht]]></description>
+    <styleUrl>#style34</styleUrl>
+    <Point>
+      <coordinates>8.627294,53.190208,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Langenstraße</name>
+    <Snippet>Bremer Investitionsgesellschaft Langenstr. 2-4 Passage 10:00-22:00 Uhr behindert</Snippet>
+    <description><![CDATA[Bremer Investitionsgesellschaft Langenstr. 2-4 Passage 10:00-22:00 Uhr behindertengerecht]]></description>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>8.806221,53.075836,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Flughafen</name>
+    <Snippet>Flughafen Bremen Terminal 123 behindertengerecht</Snippet>
+    <description><![CDATA[Flughafen Bremen Terminal 123 behindertengerecht]]></description>
+    <styleUrl>#style23</styleUrl>
+    <Point>
+      <coordinates>8.785594,53.052574,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Flughafen</name>
+    <Snippet>Flughafen Bremen Terminal E (Rynair) behindertengerecht</Snippet>
+    <description><![CDATA[Flughafen Bremen Terminal E (Rynair) behindertengerecht]]></description>
+    <styleUrl>#style11</styleUrl>
+    <Point>
+      <coordinates>8.784870,53.052841,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Flughafen</name>
+    <Snippet>Flughafen Bremen Parkhaus 2 behindertengerecht</Snippet>
+    <description><![CDATA[Flughafen Bremen Parkhaus 2 behindertengerecht]]></description>
+    <styleUrl>#style72</styleUrl>
+    <Point>
+      <coordinates>8.785559,53.053570,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Martinistraße</name>
+    <Snippet>Senator fuer Wirtschaft und Haefen Martinistr. 28 bitte Geschaefszeiten beachten</Snippet>
+    <description><![CDATA[Senator fuer Wirtschaft und Haefen Martinistr. 28 bitte Geschaefszeiten beachten behindertengerecht]]></description>
+    <styleUrl>#style68</styleUrl>
+    <Point>
+      <coordinates>8.803648,53.076397,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Ueberseetor</name>
+    <Snippet>Hansestadt Bremisches Hafenamt Ueberseetor 20 Seiteneingang Hafenstr. EG Univers</Snippet>
+    <description><![CDATA[Hansestadt Bremisches Hafenamt Ueberseetor 20 Seiteneingang Hafenstr. EG Universalschluessel Nutzungszeiten variabel behindertengerecht]]></description>
+    <styleUrl>#style52</styleUrl>
+    <Point>
+      <coordinates>8.772000,53.094273,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Landrat-Christians-Str.</name>
+    <Snippet>Amtsgericht Bremen Blumenthal Landrat-Christians-Str. 65a/67/69 Haus C 9:00-14:0</Snippet>
+    <description><![CDATA[Amtsgericht Bremen Blumenthal Landrat-Christians-Str. 65a/67/69 Haus C 9:00-14:00 Uhr behindertengerecht]]></description>
+    <styleUrl>#style25</styleUrl>
+    <Point>
+      <coordinates>8.582274,53.182240,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Am Wall</name>
+    <Snippet>Justizzentrum Am Wall 189 EG Mo-Do 8:00-16:00 Fr 8:00-14:00 behindertengerecht</Snippet>
+    <description><![CDATA[Justizzentrum Am Wall 189 EG Mo-Do 8:00-16:00 Fr 8:00-14:00 behindertengerecht]]></description>
+    <styleUrl>#style73</styleUrl>
+    <Point>
+      <coordinates>8.812592,53.074715,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Am Wall</name>
+    <Snippet>Justizzentrum Am Wall 189 UG Mo-Do 8:00-16:00 Fr 8:00-14:00 behindertengerecht</Snippet>
+    <description><![CDATA[Justizzentrum Am Wall 189 UG Mo-Do 8:00-16:00 Fr 8:00-14:00 behindertengerecht]]></description>
+    <styleUrl>#style15</styleUrl>
+    <Point>
+      <coordinates>8.812581,53.074753,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Am Wall</name>
+    <Snippet>Justizzentrum Am Wall 189 1OG Mo-Do 8:00-16:00 Fr 8:00-14:00 behindertengeeignet</Snippet>
+    <description><![CDATA[Justizzentrum Am Wall 189 1OG Mo-Do 8:00-16:00 Fr 8:00-14:00 behindertengeeignet]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>8.812586,53.074734,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Am Wall</name>
+    <Snippet>Justizzentrum Am Wall 201 3 OG Mo-Do 8:00-16:00 Fr 8:00-15:00 behindertengerecht</Snippet>
+    <description><![CDATA[Justizzentrum Am Wall 201 3 OG Mo-Do 8:00-16:00 Fr 8:00-15:00 behindertengerecht]]></description>
+    <styleUrl>#style66</styleUrl>
+    <Point>
+      <coordinates>8.811915,53.073956,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Ostertorstraße</name>
+    <Snippet>Amtsgericht Bremen Ostertorstr. 25/31 ab 2010 mit behindertengerechter Toilette</Snippet>
+    <description><![CDATA[Amtsgericht Bremen Ostertorstr. 25/31 ab 2010 mit behindertengerechter Toilette]]></description>
+    <styleUrl>#style43</styleUrl>
+    <Point>
+      <coordinates>8.811425,53.073853,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Rembertiring</name>
+    <Snippet>Senatorin fuer Bildung und Wissenschaft Eingangsbereich Rembertiring 8-12 8:00-1</Snippet>
+    <description><![CDATA[Senatorin fuer Bildung und Wissenschaft Eingangsbereich Rembertiring 8-12 8:00-12:00 Uhr behindertengerecht]]></description>
+    <styleUrl>#style12</styleUrl>
+    <Point>
+      <coordinates>8.815068,53.080017,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Am Weidedamm</name>
+    <Snippet>Senatorin fuer Bildung und Wissenschaft (LIS) Am Weidedamm 20 Eingang A und B Mo</Snippet>
+    <description><![CDATA[Senatorin fuer Bildung und Wissenschaft (LIS) Am Weidedamm 20 Eingang A und B Mo-Do 8:00-18:00 Uhr Fr 8:00-16:00 behindertengerecht]]></description>
+    <styleUrl>#style16</styleUrl>
+    <Point>
+      <coordinates>8.816574,53.092834,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Universität</name>
+    <Snippet>Universitaet Bremen Haltestelle Zentralbereich Mo-Fr 4:45-0:30 Sa-So 4:45-21:00 </Snippet>
+    <description><![CDATA[Universitaet Bremen Haltestelle Zentralbereich Mo-Fr 4:45-0:30 Sa-So 4:45-21:00 Uhr behindertengerecht]]></description>
+    <styleUrl>#style69</styleUrl>
+    <Point>
+      <coordinates>8.852747,53.107655,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Universität</name>
+    <Snippet>Universitaet Bremen Hochschulring Parkplatz vor IW3 Mo-Fr 6:00-21:00 Uhr behinde</Snippet>
+    <description><![CDATA[Universitaet Bremen Hochschulring Parkplatz vor IW3 Mo-Fr 6:00-21:00 Uhr behindertengerecht]]></description>
+    <styleUrl>#style10</styleUrl>
+    <Point>
+      <coordinates>8.855571,53.107922,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Universität</name>
+    <Snippet>Universitaet Bremen Universitaetsallee Parkplatz neben GW1 Mo-Fr 6:00-21:00 Uhr </Snippet>
+    <description><![CDATA[Universitaet Bremen Universitaetsallee Parkplatz neben GW1 Mo-Fr 6:00-21:00 Uhr behindertengerecht]]></description>
+    <styleUrl>#style75</styleUrl>
+    <Point>
+      <coordinates>8.846622,53.105637,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Hochschule Bremen</name>
+    <Snippet>Hochschule Bremen Mensa Neustadtswall Gebaeude AB behindertengerecht</Snippet>
+    <description><![CDATA[Hochschule Bremen Mensa Neustadtswall Gebaeude AB behindertengerecht]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>8.793756,53.072605,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Hochschule fuer Künste</name>
+    <Snippet>Hochschule fuer Kuenste Speicher XI Segment 8 Rampe behindertengerecht</Snippet>
+    <description><![CDATA[Hochschule fuer Kuenste Speicher XI Segment 8 Rampe behindertengerecht]]></description>
+    <styleUrl>#style24</styleUrl>
+    <Point>
+      <coordinates>8.770454,53.097057,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Rudolf-Hilferding-Platz</name>
+    <Snippet>Senatorin fuer Finanzen Rudlof-Hilferding-Platz 1 Altbau 3. OG internes Treppenh</Snippet>
+    <description><![CDATA[Senatorin fuer Finanzen Rudlof-Hilferding-Platz 1 Altbau 3. OG internes Treppenhaus 7:00-17:00 Uhr behindertengerecht]]></description>
+    <styleUrl>#style14</styleUrl>
+    <Point>
+      <coordinates>8.812862,53.079369,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Rudolf-Hilferding-Platz</name>
+    <Snippet>Senatorin fuer Finanzen Rudlof-Hilferding-Platz 1 Altbau 5. OG gegenueber Z. 527</Snippet>
+    <description><![CDATA[Senatorin fuer Finanzen Rudlof-Hilferding-Platz 1 Altbau 5. OG gegenueber Z. 527 7:00-17:00 Uhr behindertengerecht]]></description>
+    <styleUrl>#style47</styleUrl>
+    <Point>
+      <coordinates>8.812667,53.079281,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Rudolf-Hilferding-Platz</name>
+    <Snippet>Senatorin fuer Finanzen Rudlof-Hilferding-Platz 1 Anbau 3 OG  7:00-17:00 Uhr beh</Snippet>
+    <description><![CDATA[Senatorin fuer Finanzen Rudlof-Hilferding-Platz 1 Anbau 3 OG  7:00-17:00 Uhr behindertengerecht]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>8.814117,53.079178,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Doventorscontrescarpe</name>
+    <Snippet>Senatorin fuer Finanzen Doventorscontrescarpe 172 Block B  7:15-18:30 Uhr behind</Snippet>
+    <description><![CDATA[Senatorin fuer Finanzen Doventorscontrescarpe 172 Block B  7:15-18:30 Uhr behindertengerecht]]></description>
+    <styleUrl>#style37</styleUrl>
+    <Point>
+      <coordinates>8.797152,53.084393,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Doventorscontrescarpe</name>
+    <Snippet>Senatorin fuer Finanzen Doventorscontrescarpe 172 Block C  7:15-18:30 Uhr behind</Snippet>
+    <description><![CDATA[Senatorin fuer Finanzen Doventorscontrescarpe 172 Block C  7:15-18:30 Uhr behindertengerecht]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>8.796539,53.084702,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Knochenhauerstrasse</name>
+    <Snippet>Senatorin fuer Finanzen Knochenhauerstr. 20-25 3. OG  7:00-17:00 Uhr</Snippet>
+    <description><![CDATA[Senatorin fuer Finanzen Knochenhauerstr. 20-25 3. OG  7:00-17:00 Uhr]]></description>
+    <styleUrl>#style32</styleUrl>
+    <Point>
+      <coordinates>8.806524,53.078987,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bahnhofsplatz</name>
+    <Snippet>Senatorin fuer Arbeit Frauen Gesundheit Jugend und Soziales Bahnhofsplatz 29 10 </Snippet>
+    <description><![CDATA[Senatorin fuer Arbeit Frauen Gesundheit Jugend und Soziales Bahnhofsplatz 29 10 OG Mo-Do 8:00-16:00 Fr 8:00-14:30 Uhr behindertengerecht]]></description>
+    <styleUrl>#style63</styleUrl>
+    <Point>
+      <coordinates>8.811206,53.081104,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Contrescarpe</name>
+    <Snippet>Senatorin fuer Arbeit Frauen Gesundheit Jugend und Soziales Contrescarpe 72 EG M</Snippet>
+    <description><![CDATA[Senatorin fuer Arbeit Frauen Gesundheit Jugend und Soziales Contrescarpe 72 EG Mo-Fr 6:00-19:00 Uhr behindertengerecht]]></description>
+    <styleUrl>#style77</styleUrl>
+    <Point>
+      <coordinates>8.812359,53.080002,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Pfalzburger Straße</name>
+    <Snippet>BAGIS Ost Pfalzburger Str. 69a 2. OG Mo-Fr 8:00-12:30 Do auch 15:00-18:00 behind</Snippet>
+    <description><![CDATA[BAGIS Ost Pfalzburger Str. 69a 2. OG Mo-Fr 8:00-12:30 Do auch 15:00-18:00 behindertengerecht]]></description>
+    <styleUrl>#style48</styleUrl>
+    <Point>
+      <coordinates>8.872757,53.062580,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Schiffbauerweg</name>
+    <Snippet>BAGIS West Schiffbauerweg 22 1. OG Raum 113 MoDiDo 8:00-12:30 Do 15:00-17:30 beh</Snippet>
+    <description><![CDATA[BAGIS West Schiffbauerweg 22 1. OG Raum 113 MoDiDo 8:00-12:30 Do 15:00-17:30 behindertengerecht]]></description>
+    <styleUrl>#style29</styleUrl>
+    <Point>
+      <coordinates>8.750920,53.113373,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Hans-Böckler-Str.</name>
+    <Snippet>Sozialzentrum Groepelingen/Walle Hans-Boeckler-Str. 9 Zugang ueber Auf dem Kamp </Snippet>
+    <description><![CDATA[Sozialzentrum Groepelingen/Walle Hans-Boeckler-Str. 9 Zugang ueber Auf dem Kamp EG Mo-Fr 8:00-16:00 Uhr behindertengerecht]]></description>
+    <styleUrl>#style70</styleUrl>
+    <Point>
+      <coordinates>8.791514,53.086189,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Große Sortillenstr.</name>
+    <Snippet>Sozialzentrum Sued Grosse Sortillienstr. 2-18 EG Mo-Do 8:00-16:00 Fr 8:00-13:00 </Snippet>
+    <description><![CDATA[Sozialzentrum Sued Grosse Sortillienstr. 2-18 EG Mo-Do 8:00-16:00 Fr 8:00-13:00 Uhr behindertengerecht]]></description>
+    <styleUrl>#style61</styleUrl>
+    <Point>
+      <coordinates>8.791189,53.075058,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Rembertiring</name>
+    <Snippet>Sozialzentrum Mitte Rembertiring 39 EG Mo-Do 8:00-16:00 Fr 8:00-14:00 Uhr behind</Snippet>
+    <description><![CDATA[Sozialzentrum Mitte Rembertiring 39 EG Mo-Do 8:00-16:00 Fr 8:00-14:00 Uhr behindertengerecht]]></description>
+    <styleUrl>#style22</styleUrl>
+    <Point>
+      <coordinates>8.817417,53.078144,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Am Sedanplatz</name>
+    <Snippet>Sozialzentrum Nord Am Sedanplatz 7 EG Mo-Fr 8:00-15:00 Uhr mit Euroschluessel be</Snippet>
+    <description><![CDATA[Sozialzentrum Nord Am Sedanplatz 7 EG Mo-Fr 8:00-15:00 Uhr mit Euroschluessel behindertengerecht]]></description>
+    <styleUrl>#style39</styleUrl>
+    <Point>
+      <coordinates>8.617601,53.173782,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Pfalzburgerstraße</name>
+    <Snippet>Sozialzentrum Hemelingen/Osterholz Pfalzburger Str. 69a 4. OG Raum 419 Mo-Do 9:0</Snippet>
+    <description><![CDATA[Sozialzentrum Hemelingen/Osterholz Pfalzburger Str. 69a 4. OG Raum 419 Mo-Do 9:00-15:00 Fr 9:00-13:00 Uhr behindertengerecht]]></description>
+    <styleUrl>#style74</styleUrl>
+    <Point>
+      <coordinates>8.872810,53.062630,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Wilhelm-Leuschner-Str.</name>
+    <Snippet>Sozialzentrum Vahr/Schwachhausen/Horn-Lehe Wilhelm Leuschner-Str. 27 EG Eing. A </Snippet>
+    <description><![CDATA[Sozialzentrum Vahr/Schwachhausen/Horn-Lehe Wilhelm Leuschner-Str. 27 EG Eing. A + D Mo-Fr 8:00-15:00 Uhr behindertengerecht]]></description>
+    <styleUrl>#style80</styleUrl>
+    <Point>
+      <coordinates>8.886995,53.075905,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Horner Straße</name>
+    <Snippet>Gesundheitsamt Bremen Horner Str. 60/70 EG Mo-Fr 8:00-15:00 Uhr mit Euroschluess</Snippet>
+    <description><![CDATA[Gesundheitsamt Bremen Horner Str. 60/70 EG Mo-Fr 8:00-15:00 Uhr mit Euroschluessel behindertengerecht]]></description>
+    <styleUrl>#style46</styleUrl>
+    <Point>
+      <coordinates>8.830737,53.074646,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Friedrich-Rauers-Str.</name>
+    <Snippet>Versorgungsamt Friedrich-Rauers-Str. 26 1. OG Mo+Do 9:00-12:00 Uhr behindertenge</Snippet>
+    <description><![CDATA[Versorgungsamt Friedrich-Rauers-Str. 26 1. OG Mo+Do 9:00-12:00 Uhr behindertengerecht]]></description>
+    <styleUrl>#style28</styleUrl>
+    <Point>
+      <coordinates>8.803152,53.086166,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Doventorscontrescarpe</name>
+    <Snippet>Versorgungsamt Doventorscontrescarpe 172 D 4. OG Mo+Do 9:00-12:00 Uhr behinderte</Snippet>
+    <description><![CDATA[Versorgungsamt Doventorscontrescarpe 172 D 4. OG Mo+Do 9:00-12:00 Uhr behindertengerecht]]></description>
+    <styleUrl>#style64</styleUrl>
+    <Point>
+      <coordinates>8.797490,53.084034,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Am Markt</name>
+    <Snippet>Haus der Buergerschaft Am Markt 20 EG Mo-Fr 8:00-18:00 Uhr behindertengerecht</Snippet>
+    <description><![CDATA[Haus der Buergerschaft Am Markt 20 EG Mo-Fr 8:00-18:00 Uhr behindertengerecht]]></description>
+    <styleUrl>#style59</styleUrl>
+    <Point>
+      <coordinates>8.807576,53.075459,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Börsenhof</name>
+    <Snippet>Haus der Buergerschaft Boersenhof A EG Mo-Fr 8:00-18:00 Uhr z.Zt wg. Sanierung n</Snippet>
+    <description><![CDATA[Haus der Buergerschaft Boersenhof A EG Mo-Fr 8:00-18:00 Uhr z.Zt wg. Sanierung nicht fuer Behinderte benutzbar]]></description>
+    <styleUrl>#style71</styleUrl>
+    <Point>
+      <coordinates>8.808053,53.075027,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Am Dom</name>
+    <Snippet>Haus der Buergerschaft Am Dom 5A 3 OG Mo-Fr 8:00-18:00 Uhr behindertengerecht</Snippet>
+    <description><![CDATA[Haus der Buergerschaft Am Dom 5A 3 OG Mo-Fr 8:00-18:00 Uhr behindertengerecht]]></description>
+    <styleUrl>#style18</styleUrl>
+    <Point>
+      <coordinates>8.807933,53.075432,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Rembertiring</name>
+    <Snippet>GEWOBA Rembertiring 27 EG 9:00-18:00 Uhr behindertengerecht</Snippet>
+    <description><![CDATA[GEWOBA Rembertiring 27 EG 9:00-18:00 Uhr behindertengerecht]]></description>
+    <styleUrl>#style41</styleUrl>
+    <Point>
+      <coordinates>8.816714,53.078545,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Matterhornerstrasse</name>
+    <Snippet>GEWOBA Kundenzentrum Tenever Matterhornerstr. 26 behindertengerecht</Snippet>
+    <description><![CDATA[GEWOBA Kundenzentrum Tenever Matterhornerstr. 26 behindertengerecht]]></description>
+    <styleUrl>#style31</styleUrl>
+    <Point>
+      <coordinates>8.954287,53.064651,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Konsul-Smidt-Str.</name>
+    <Snippet>Haneg Newport Konsul-Smidt-Str. 8k EG 24 h behindertengerecht</Snippet>
+    <description><![CDATA[Haneg Newport Konsul-Smidt-Str. 8k EG 24 h behindertengerecht]]></description>
+    <styleUrl>#style53</styleUrl>
+    <Point>
+      <coordinates>8.775420,53.089985,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Konsul-Smidt-Str.</name>
+    <Snippet>Haneg Portland Konsul-Smidt-Str. 8k EG  24 h behindertengerecht</Snippet>
+    <description><![CDATA[Haneg Portland Konsul-Smidt-Str. 8k EG  24 h behindertengerecht]]></description>
+    <styleUrl>#style26</styleUrl>
+    <Point>
+      <coordinates>8.773812,53.090672,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Deliusweg</name>
+    <Snippet>Ropag botanika Deliusweg 40 Di-Fr 9:00-18:00 Sa-So 10:00-18:00 Uhr behindertenge</Snippet>
+    <description><![CDATA[Ropag botanika Deliusweg 40 Di-Fr 9:00-18:00 Sa-So 10:00-18:00 Uhr behindertengerecht]]></description>
+    <styleUrl>#style9</styleUrl>
+    <Point>
+      <coordinates>8.884132,53.093693,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Deliusweg</name>
+    <Snippet>Ropag/Bistro Deliusweg 40 Maerz-Sept Mo-So 10:00-19:00 Nov-Feb Mi-So 10:00-16:00</Snippet>
+    <description><![CDATA[Ropag/Bistro Deliusweg 40 Maerz-Sept Mo-So 10:00-19:00 Nov-Feb Mi-So 10:00-16:00 Uhr behindertengerecht]]></description>
+    <styleUrl>#style27</styleUrl>
+    <Point>
+      <coordinates>8.883964,53.093204,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Lloydstrasse</name>
+    <Snippet>GeoInformation Lloydstr. 4 EG Treppenhaus 7 6:00-18:00 Uhr behindertengerecht</Snippet>
+    <description><![CDATA[GeoInformation Lloydstr. 4 EG Treppenhaus 7 6:00-18:00 Uhr behindertengerecht]]></description>
+    <styleUrl>#style38</styleUrl>
+    <Point>
+      <coordinates>8.787818,53.084423,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Willy-Brandt-Platz</name>
+    <Snippet>BEB Willy-Brandt-Platz 7 Foyer 5 OG  8:00-16:00 Uhr behindertengerecht</Snippet>
+    <description><![CDATA[BEB Willy-Brandt-Platz 7 Foyer 5 OG  8:00-16:00 Uhr behindertengerecht]]></description>
+    <styleUrl>#style54</styleUrl>
+    <Point>
+      <coordinates>8.814284,53.084583,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Wegesende</name>
+    <Snippet>Senator fuer Umwelt Bau Verkehr und Europa Zugang von Wegesende 23 in Lloydpassa</Snippet>
+    <description><![CDATA[Senator fuer Umwelt Bau Verkehr und Europa Zugang von Wegesende 23 in Lloydpassage mit Euroschluessel behindertengerecht]]></description>
+    <styleUrl>#style50</styleUrl>
+    <Point>
+      <coordinates>8.804457,53.079273,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Findorffstraße</name>
+    <Snippet>Lebensmittelueberwachungs-Tierschutz- und Veterinaerdienst des Landes Findorffst</Snippet>
+    <description><![CDATA[Lebensmittelueberwachungs-Tierschutz- und Veterinaerdienst des Landes Findorffstr.101 Mo-Fr 8:00-15:00 behindertengerecht]]></description>
+    <styleUrl>#style55</styleUrl>
+    <Point>
+      <coordinates>8.811405,53.089153,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>

@@ -47,10 +47,10 @@
             <div class="slides">
 
                 <section id="welcome">
-                    <h1>GDAWasser</h1>
+                    <h1>GDAW<span class="force-lowercase">asser</span></h1>
                     <hr />
-                    <h3>An example of SHOGun in action</h3>
-                    <img src="http://nicenicejpg.com/200" width="200" class="plain"/>
+                    <h3>An example of<br />SHOGun in action</h3>
+                    <img src="./images/GDA_Logo.png" width="500" class="contrast"/>
                     <p>
                         <small>Marc Jansen,
                         jansen@terrestris.de,
@@ -62,11 +62,17 @@
                     <h2>Table of contents</h2>
                     <ul>
                         <li>About &hellip;</li>
-                        <li>History</li>
-                        <li>Setup</li>
-                        <li>Features</li>
-                        <li>Closing notes</li>
+                        <li>GDAWasser</li>
+                        <li>Components</li>
+                        <li>Architecture</li>
+                        <li>Administration</li>
+                        <li>CRUD GIS-Clients</li>
+                        <li>GIS-Client</li>
                     </ul>
+                </section>
+
+                <section>
+                    <h2>About &hellip;</h2>
                 </section>
 
                 <section id="about-marc-jansen">
@@ -79,14 +85,14 @@
                         <ul>
                             <li>Developer and project manager</li>
                             <li>Core developer of
-	                            <ul>
-	                                <li>OpenLayers / ol3</li>
-	                                <li>GeoExt / GeoExt2 / GXM</li>
-	                                <li>SHOGun</li>
-	                            </ul>
+                                <ul>
+                                    <li>OpenLayers / ol3</li>
+                                    <li>GeoExt / GeoExt2 / GXM</li>
+                                    <li>SHOGun</li>
+                                </ul>
                             </li>
                             <li>PSC member of GeoExt &amp; SHOGun</li>
-	                        <li>Author 'OpenLayers' (German)</li>
+                            <li>Author 'OpenLayers' (German)</li>
                             <li>OSGeo Foundation Charter Member</li>
                         </ul><br />
                         <a class="email" href="mailto:jansen@terrestris.de">jansen@terrestris.de</a><br />
@@ -96,8 +102,7 @@
                 </section>
 
                 <section id="about-terrestris">
-                    <!-- <h2>&Uuml;ber <span class="force-lowercase">terrestris</span></h2> -->
-                    <h2>&Uuml;ber terrestris</h2>
+                    <h2 class="force-lowercase">terrestris</h2>
                     <div class="split-info">
                         <div class="part">
                             <img src="../shared/images/terrestris-logo.png" class="plain contrast" width="192"/>
@@ -116,7 +121,172 @@
                             </div>
                         </div>
                     </div>
-                 </section>
+                </section>
+
+                <section>
+                    <h2>GDAW<span class="force-lowercase">asser</span></h2>
+                </section>
+
+                <section>
+                    <h2>GDAW<span class="force-lowercase">asser</span></h2>
+                    <ul>
+                        <li>SDI for Watermanagement Agency of Rhineland-Palatinate</li>
+                        <li>Replacement for existing (dated) client(s)</li>
+                        <li>Server / Client</li>
+                        <li>OGC-Standards</li>
+                        <li>Java / Spring / Hibernate</li>
+                        <li>OpenLayers / ExtJS / GeoExt</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Components</h2>
+                </section>
+
+                <section>
+                    <h2>Components</h2>
+                    <ul>
+                        <li>SHOGun
+                            <ul>
+	                            <li>Backend / Middleware</li>
+	                            <li>GUIs</li>
+                            </ul>
+                        </li>
+                        <li>GeoServer</li>
+                        <li>Oracle</li>
+                        <li>EasyXDM</li>
+                        <li>MapFish Print</li>
+                        <li>GeoNetwork OpenSource</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Architecture</h2>
+                </section>
+
+                <section>
+                    <img class="contrast" src="./images/architecture.png">
+                </section>
+
+                <section>
+                    <h2>Integration with DataScout</h2>
+                    <ul>
+                        <li>Single Sign-On</li>
+                        <li>Authentication</li>
+                        <li>Authorisation (partly)</li>
+                        <li>User database</li>
+                        <li>Two-way interaction via API</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <img class="plain" src="./images/000-datascout-login.png">
+                </section>
+
+                <section>
+                    <h2>General administration</h2>
+                </section>
+
+                <section>
+                    <img class="plain" src="./images/100-master-group-administer.png">
+                </section>
+
+                <section>
+                    <img class="plain" src="./images/110-master-user-administer-overview.png">
+                </section>
+
+                <section>
+                    <img class="plain" src="./images/110-master-user-administer.png">
+                </section>
+
+                <section>
+                    <h2>Managing GIS-Clients</h2>
+                    <ul>
+                        <li>Creating</li>
+                        <li>Reading</li>
+                        <li>Updating</li>
+                        <li>Deleting</li>
+                        <li>Exporting</li>
+                        <li>Cloning</li>
+                        <li>Connecting (Mobile)</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <img class="plain" src="./images/200-gizmo-instance-list.png">
+                </section>
+
+                <section>
+                    <img class="plain" src="./images/210-gizmo-edit-instance-properties-admin.png">
+                </section>
+
+                <section>
+                    <img class="plain" src="./images/211-gizmo-edit-instance-properties-user.png">
+                </section>
+
+                <section>
+                    <img class="plain" src="./images/212-gizmo-edit-instance-longdesc.png">
+                </section>
+
+                <section>
+                    <img class="plain" src="./images/213-gizmo-edit-instance-tools.png">
+                </section>
+
+                <section>
+                    <img class="plain" src="./images/214-gizmo-edit-instance-layers.png">
+                </section>
+
+                <section>
+                    <img class="plain" src="./images/214-gizmo-edit-instance-layers-previewlayer.png">
+                </section>
+
+                <section>
+                    <img class="plain" src="./images/214-gizmo-edit-instance-layers-addlayer.png">
+                </section>
+
+                <section>
+                    <img class="plain" src="./images/214-gizmo-edit-instance-layers-stylelayer.png">
+                </section>
+
+                <section>
+                    <img class="plain" src="./images/214-gizmo-edit-instance-layers-stylelayer-preview.png">
+                </section>
+
+                <section>
+                    <img class="plain" src="./images/215-gizmo-edit-instance-overview.png">
+                </section>
+
+                <section>
+                    <img class="plain" src="./images/216-gizmo-edit-instance-startview.png">
+                </section>
+
+                <section>
+                    <img class="plain" src="./images/220-gizmo-resulting-gisclient.png">
+                </section>
+
+                <section>
+                    <h2>Using GIS-Clients</h2>
+                </section>
+
+                <section>
+                    <video controls="controls" src="./videos/Gisclient_01_Hover_Select.mp4"></video>
+                </section>
+                <section>
+                    <video controls="controls" src="./videos/Gisclient_02_Messen.mp4"></video>
+                </section>
+                <section>
+                    <video controls="controls" src="./videos/Gisclient_03_Druck_Layer_hinzufuegen.mp4"></video>
+                </section>
+                <section>
+                    <video controls="controls" src="./videos/Gisclient_04_Annotieren.mp4"></video>
+                </section>
+                <section>
+                    <video controls="controls" src="./videos/Gisclient_05_Digitalisieren.mp4"></video>
+                </section>
+
+                <section data-background="./images/brzltrs.gif">
+                    <h3 class="center" style="color:#ededed">Sorry, I have to stop&hellip;</h3>
+                </section>
 
                 <section id="thanks">
                     <h3>Thank you</h3>
@@ -134,6 +304,12 @@
                         </li>
                         <li>
                             License: <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+                        </li>
+                        <li>
+                            This talk is a derived work of the talk "GDA Wasser
+                            &mdash; ein praktisches Beispiel für das komplexe
+                            SHOGun-WebGIS Framework" by Johannes Weskamm, held
+                            at the FOSSGIS 2014.
                         </li>
                         <li>
                             <a href="http://terrestris.github.io/foss4g-e-2014/gdawasser">Slideshow (HTML5)</a>

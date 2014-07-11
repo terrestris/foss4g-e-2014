@@ -50,7 +50,7 @@
                     <h1 style="font-size: 320%">Brandenburg 3D</h1>
                     <hr />
                     <h3>Sophisticated Presentation of 3D Geological Data in Your Browser</h3>
-                    <img src="http://nicenicejpg.com/200" width="200" class="plain"/>
+                    <img src="./images/b3d-logo.png" width="200" class="contrast"/>
                     <p>
                         <small>Marc Jansen,
                         jansen@terrestris.de,
@@ -62,10 +62,10 @@
                     <h2>Table of contents</h2>
                     <ul>
                         <li>About &hellip;</li>
-                        <li>History</li>
-                        <li>Setup</li>
-                        <li>Features</li>
-                        <li>Closing notes</li>
+                        <li>Brandenburg 3D</li>
+                        <li>Architecture</li>
+                        <li>Functionality</li>
+                        <li>Closing note</li>
                     </ul>
                 </section>
 
@@ -79,14 +79,14 @@
                         <ul>
                             <li>Developer and project manager</li>
                             <li>Core developer of
-	                            <ul>
-	                                <li>OpenLayers / ol3</li>
-	                                <li>GeoExt / GeoExt2 / GXM</li>
-	                                <li>SHOGun</li>
-	                            </ul>
+                                <ul>
+                                    <li>OpenLayers / ol3</li>
+                                    <li>GeoExt / GeoExt2 / GXM</li>
+                                    <li>SHOGun</li>
+                                </ul>
                             </li>
                             <li>PSC member of GeoExt &amp; SHOGun</li>
-	                        <li>Author 'OpenLayers' (German)</li>
+                            <li>Author 'OpenLayers' (German)</li>
                             <li>OSGeo Foundation Charter Member</li>
                         </ul><br />
                         <a class="email" href="mailto:jansen@terrestris.de">jansen@terrestris.de</a><br />
@@ -96,8 +96,7 @@
                 </section>
 
                 <section id="about-terrestris">
-                    <!-- <h2>&Uuml;ber <span class="force-lowercase">terrestris</span></h2> -->
-                    <h2>&Uuml;ber terrestris</h2>
+                    <h2 class="force-lowercase">terrestris</h2>
                     <div class="split-info">
                         <div class="part">
                             <img src="../shared/images/terrestris-logo.png" class="plain contrast" width="192"/>
@@ -116,7 +115,263 @@
                             </div>
                         </div>
                     </div>
-                 </section>
+                </section>
+
+                <section>
+                    <h2>Brandenburg 3D</h2>
+                </section>
+
+                <section>
+                    <h2>Background</h2>
+                    <ul>
+                        <li>1950 - 1980: GDR gathered massive amount of geological data</li>
+                        <li>Political reasons made this data inaccessible</li>
+                        <li>Technical obstructions added up to that</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h1>
+                        Let <span class="highlight">everyone</span> use the data
+                    </h1>
+                </section>
+
+                <section>
+                    <h2>Brandenburg 3D</h2>
+                    <ul>
+                        <li>Massive joint project</li>
+                        <li>started 2012</li>
+                        <li>dataprocessing, modelling and publishing</li>
+                        <li>terrestris: Publishing of 2D and 3D data in the web</li>
+                        <li>Partners: glamus GmbH und camp2camp SA</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>(3D) WebGIS requirements</h2>
+                    <ul>
+                        <li>Usability</li>
+                        <li>no Browser-Plugins</li>
+                        <li>Access to geologic models in 2D and 3D</li>
+                        <li>Integration SDI Brandenburg</li>
+                        <li>Based on OpenSource Software</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Architecture</h2>
+                </section>
+
+                <section>
+                    <img class="plain" src="./images/architecture.png">
+                </section>
+
+                <section>
+                    <img class="plain" src="./images/dataprocessing.png">
+                </section>
+
+                <section>
+                    <ul>
+                        <li>W3DS (Web 3D Service)</li>
+                        <li>3D-Scene (X3D) retrieval</li>
+                    </ul>
+                    <img class="plain" src="./images/w3ds.png">
+                </section>
+
+                <section>
+                    <h2>3D-Client</h2>
+                    <ul>
+                        <li>X3DOMExt</li>
+                        <li>Extending API of X3DOM
+                            <ul>
+                            <li>setScaleZ()</li>
+                            <li>setLayerVisibility()</li>
+                            <li>getState()/setState()</li>
+                            </ul>
+                       </li>
+                       <li>
+                           Connects X3DOM and ExtJS
+                           <ul>
+                               <li>ScenePanel</li>
+                               <li>Tree</li>
+                               <li>LayerModel</li>
+                           </ul>
+                       </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Functionality</h2>
+                </section>
+
+                <section>
+                    <h2>Demo</h2>
+                </section>
+
+                <section>
+                    <h2 style="text-decoration:line-through;">Demo</h2>
+                </section>
+
+                <section>
+                    <img class="plain" src="./images/brandenburg-services.png">
+                </section>
+
+                <section>
+                    <img class="plain" src="./images/disallow.png">
+                </section>
+
+                <section>
+                    <h2>Screenshots</h2>
+                </section>
+
+                <section>
+                    <h3>Landingpage</h3>
+                    <img class="plain" src="./images/000-startpage.png">
+                </section>
+
+                <section>
+                    <h3>Landingpage 2D</h3>
+                    <img class="plain" src="./images/010-2d-startpage.png">
+                </section>
+
+                <section>
+                    <h3>Activate layer</h3>
+                    <img class="plain" src="./images/020-2d-activate-layer.png">
+                </section>
+
+                <section>
+                    <h3>Hover borehole</h3>
+                    <img class="plain" src="./images/030-2d-hover-borehole.png">
+                </section>
+
+                <section>
+                    <h3>Borehole profile</h3>
+                    <img class="plain" src="./images/040-2d-view-borehole-profile.png">
+                </section>
+
+                <section>
+                    <h3>Borehole info</h3>
+                    <img class="plain" src="./images/050-2d-view-borehole-featureinfo.png">
+                </section>
+
+                <section>
+                    <h3>Hover seismic profile</h3>
+                    <img class="plain" src="./images/060-2d-hover-reflection-seismic-profile.png">
+                </section>
+
+                <section>
+                    <h3>Seismic profile</h3>
+                    <img class="plain" src="./images/070-2d-view-refection-seismic-profile.png">
+                </section>
+
+                <section>
+                    <h3>Search</h3>
+                    <img class="plain" src="./images/080-2d-search-borehole-or-profile.png">
+                </section>
+
+                <section>
+                    <h3>Interaction <span class="force-lowercase">w/</span> map</h3>
+                    <img class="plain" src="./images/090-2d-found-boreholes-interact-map.png">
+                </section>
+
+                <section>
+                    <h3>Restyle layer</h3>
+                    <img class="plain" src="./images/100-2d-restyle-borehole-layer.png">
+                </section>
+
+                <section>
+                    <h3>Restyle detail</h3>
+                    <img class="plain" src="./images/110-2d-restyle-borehole-layer-pointstyle.png">
+                </section>
+
+                <section>
+                    <h3>Restyle result</h3>
+                    <img class="plain" src="./images/120-2d-restyle-borehole-layer-result.png">
+                </section>
+
+                <section>
+                    <h3>Landingpage 3D</h3>
+                    <img class="plain" src="./images/130-3d-startpage.png">
+                </section>
+
+                <section>
+                    <h3>Rotate view</h3>
+                    <img class="plain" src="./images/140-3d-rotated-map.png">
+                </section>
+
+                <section>
+                    <h3>Query map</h3>
+                    <img class="plain" src="./images/150-3d-queried-map.png">
+                </section>
+
+                <section>
+                    <h3>Activate layer</h3>
+                    <img class="plain" src="./images/160-3d-activate-layer-faults.png">
+                </section>
+
+                <section>
+                    <h3>Restyle layer</h3>
+                    <img class="plain" src="./images/170-3d-restyle-layer-faults.png">
+                </section>
+
+                <section>
+                    <h3>Virtual borehole</h3>
+                    <img class="plain" src="./images/180-3d-virtual-borehole.png">
+                </section>
+
+                <section>
+                    <h3>Virtual profile</h3>
+                    <img class="plain" src="./images/190-3d-virtual-profile.png">
+                </section>
+
+                <section>
+                    <img class="plain" src="./images/200-3d-virtual-borehole-pdf-export.png">
+                </section>
+
+                <section>
+                    <h3>No BBOX</h3>
+                    <img class="plain" src="./images/210-3d-composed-no-bbox.png">
+                </section>
+
+                <section>
+                    <h3>BBOX</h3>
+                    <img class="plain" src="./images/220-3d-single-with-bbox.png">
+                </section>
+
+                <section>
+                    <h3>LOD ▼</h3>
+                    <img class="plain" src="./images/230-3d-pointz-lod-low.png">
+                </section>
+
+                <section>
+                    <h3>LOD ▲</h3>
+                    <img class="plain" src="./images/240-3d-pointz-lod-high.png">
+                </section>
+
+                <section>
+                    <h3>Save view</h3>
+                    <img class="plain" src="./images/250-3d-save-view.png">
+                </section>
+
+                <section>
+                    <h3>2D / 3D interaction</h3>
+                    <img class="plain" src="./images/260-2d-to-3d.png">
+                </section>
+
+                <section>
+                    <h3>2D / 3D interaction</h3>
+                    <img class="plain" src="./images/270-2d-to-3d-result.png">
+                </section>
+
+                <section>
+                    <h2>Closing Note</h2>
+                </section>
+
+                <section>
+                    <h1>It is absolutely doable!</h1>
+                    <br /><br />
+                    <h3>see e.g. <a href="http://berlin.geo-3d.de/berlin3d/portal">Berlin 3D</a></h3>
+                </section>
 
                 <section id="thanks">
                     <h3>Thank you</h3>
@@ -134,6 +389,11 @@
                         </li>
                         <li>
                             License: <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+                        </li>
+                        <li>
+                            This talk is a derived work of the talk "Brandenburg
+                            3D &mdash; Geologische 3D-Untergrundmodelle im
+                            Browser" by Daniel Koch, held at the FOSSGIS 2014.
                         </li>
                         <li>
                             <a href="http://terrestris.github.io/foss4g-e-2014/brandenburg3d">Slideshow (HTML5)</a>

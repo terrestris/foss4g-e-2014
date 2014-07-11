@@ -50,7 +50,7 @@
                     <h1>OpenLayers 3</h1>
                     <hr />
                     <h3>Towards version 3.0.0 final</h3>
-                    <img src="http://nicenicejpg.com/200" width="200" class="plain"/>
+                    <img src="./images/ol3-logo.png" width="300" class="plain"/>
                     <p>
                         <small>Marc Jansen,
                         jansen@terrestris.de,
@@ -62,10 +62,10 @@
                     <h2>Table of contents</h2>
                     <ul>
                         <li>About &hellip;</li>
-                        <li>History</li>
-                        <li>Setup</li>
-                        <li>Features</li>
-                        <li>Closing notes</li>
+                        <li>OpenLayers now and then</li>
+                        <li>Examples</li>
+                        <li>v3.0.0</li>
+                        <li>Closing note</li>
                     </ul>
                 </section>
 
@@ -96,8 +96,7 @@
                 </section>
 
                 <section id="about-terrestris">
-                    <!-- <h2>&Uuml;ber <span class="force-lowercase">terrestris</span></h2> -->
-                    <h2>&Uuml;ber terrestris</h2>
+                    <h2 class="force-lowercase">terrestris</h2>
                     <div class="split-info">
                         <div class="part">
                             <img src="../shared/images/terrestris-logo.png" class="plain contrast" width="192"/>
@@ -117,6 +116,441 @@
                         </div>
                     </div>
                  </section>
+                 
+                <section id="about-talk">
+                    <h2>About this talk</h2>
+                    <ul>
+                        <li>Highlights</li>
+                        <li>Examples</li>
+                        <li>Live-Demos</li>
+                        <li>Code-Snippets</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h1>OpenLayers now and then</h1>
+                </section>
+
+                <section>
+                    <h2>OpenLayers</h2>
+                    <ul>
+                        <li>
+                            Very widely used library to build interactive
+                            web maps.
+                            <br />
+                        </li>
+                        <li>
+                            v. 2.0 &rArr; nearly <strong class="highlight">8 years old</strong>
+                        </li>
+                    </ul>
+                    <img src="./images/v2.0.0.png" />
+                </section>
+
+                <section>
+                    <h2>OpenLayers</h2>
+                    <ul>
+                        <li>
+                            13 Point-releases
+                        </li>
+                        <li>
+                            &gt; 6.000 commits, ~100 contributors
+                        </li>
+                        <li>Feature rich: <ul>
+                                <li>Layertypes,</li>
+                                <li>Controls,</li>
+                                <li>Formats,</li>
+                                <li>Mobile &hellip;</li>
+                            </ul>
+                        </li>
+                        <div id="books">
+                            <div>
+                                <img src="./images/packt-ol-cookbook.png" class="plain" style="margin-top:30px">
+                            </div>
+                            <div>
+                                <img src="./images/openlayers_de_1ed.png" class="plain">
+                            </div>
+                            <div>
+                                <img src="./images/packt-ol.jpg" class="plain" style="margin-top:30px">
+                            </div>
+                        </div>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>But&hellip;</h2>
+                    <ul>
+                        <li>~8-year-old architecture</li>
+                        <li>Modern Web-Technologies</li>
+                        <li>Moderne Browsers</li>
+                    </ul>
+                    <div id="ie-evolution">
+                        <div>
+                            <img src="./images/ie6.png" class="plain contrast">
+                        </div>
+                        <div>
+                            <img src="./images/ie11.png" class="plain contrast">
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <h3>&hellip;therefore&hellip;</h3>
+                    <h1>We want a new OpenLayers!</h1>
+                </section>
+
+                <section>
+                    <h2 class="force-lowercase">ol3</h2>
+                    <ul>
+                        <li>in development for ~ 2 years</li>
+                        <li>partly crowd-funded</li>
+                        <li>up to now 4 alpha, 5 beta  &amp; 2 gamma releases</li>
+                        <li><a href="http://ol3js.org/">ol3js.org</a></li>
+                        <li><a href="https://groups.google.com/forum/#!forum/ol3-dev">Google-Group / mailinglist</a></li>
+                        <li><a href="https://github.com/openlayers/ol3">Github repository</a></li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>What's new?</h2>
+                    <ul>
+                        <li>de facto: <strong class="highlight">Everything</strong></li>
+                        <li>Complete <em lang="en">rewrite-from-scratch</em></li>
+                        <li>Tests and data have been ported over </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>What's new?</h2>
+                    <ul>
+                        <li><a href="https://developers.google.com/closure/library/">Google Closure Library</a> (Gmail, Google Maps)</li>
+                        <li><a href="https://developers.google.com/closure/compiler/">Google Closure Compiler</a></li>
+                        <li><a href="http://usejsdoc.org/">jsdoc3</a></li>
+                        <li><a href="http://www.khronos.org/webgl/">WebGL</a></li>
+                        <li><em lang="en">Mobile first / from start</em></li>
+                        <li>Styling only via CSS</li>
+                        <li>build.py</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Closure Compiler</h2>
+                    <pre><code class="small javascript" data-trim>
+ol.format.XMLFeature.prototype.readFeatures = function(source) {
+  if (ol.xml.isDocument(source)) {
+    return this.readFeaturesFromDocument(/** @type {Document} */ (source));
+  } else if (ol.xml.isNode(source)) {
+    return this.readFeaturesFromNode(/** @type {Node} */ (source));
+  } else if (goog.isString(source)) {
+    var doc = ol.xml.load(source);
+    return this.readFeaturesFromDocument(doc);
+  } else {
+    goog.asserts.fail();
+    return [];
+  }
+};
+                    </code></pre>
+                    &hellip; compiles to:
+                    <pre><code class="small javascript" data-trim>
+l.Ga=function(a){return Kn(a)?fo(this,a):Nn(a)?this.$b(a):la(a)?(a=Rn(a),fo(this,a)):[]};                    </code></pre>
+                </section>
+
+                <section>
+                    <div>
+                        <img src="./images/closure-compiler-by-tmcw.png"
+                          class="plain" alt="Closure is a big buyin, but probably worth it. --tmcw" />
+                    </div>
+                    Yes, and yes
+                </section>
+
+                <section>
+                    <h2>What stays the same?</h2>
+                    <ul>
+                        <li>Usable</li>
+                        <li>Modern</li>
+                        <li>Fast</li>
+                        <li>Extendable</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>What stays the same?</h2>
+                    <ul>
+                        <li>Understandable</li>
+                        <li>Conforming to standards</li>
+                        <li>Cross-Anything</li>
+                        <li>Well documented</li>
+                        <li>Reliable</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h1>Examples</h1>
+                </section>
+
+                <section>
+                    <h2>Hello, Welt</h2>
+                    <div class="stretch">
+                        <iframe width="100%" height="100%"
+                            src="http://ol3js.org/en/master/examples/simple.html">
+                        </iframe>
+                    </div>
+                    <!-- <a href="http://ol3js.org/en/master/examples/simple.html" target="_blank">
+                        <img src="./images/simple-example.png">
+                        ol3js.org/en/master/examples/simple.html
+                    </a> -->
+                </section>
+
+                <section>
+                    <h2>Code</h2>
+                    <pre><code class="javascript" contenteditable>  var map = new ol.Map({
+    layers: [
+      new ol.layer.Tile({
+        source: new ol.source.OSM()
+      })
+    ],
+    target: 'map',
+    view: new ol.View({
+      center: [0, 0],
+      zoom: 2
+    })
+  });</code></pre>
+                </section>
+
+                <section>
+                    <h2>OpenLayers 2.x</h2>
+                    <ul>
+                        <li>
+                            <strong class="highlight">1</strong>  &times; <code>OpenLayers.Map</code>
+                            <ul>
+                                <li class="fragment">
+                                    <strong class="highlight">n</strong> &times; <code>OpenLayers.Layer.<span class="unhighlight">Xxx</span></code>
+                                 </li>
+                                <li class="fragment">
+                                    <strong class="highlight">n</strong> &times; <code>OpenLayers.Control.<span class="unhighlight">Yyy</span></code>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2 class="force-lowercase">ol3</h2>
+                    <ul>
+                        <li>
+                            <strong class="highlight">1</strong> &times; <code>ol.Map</code>
+                            <ul>
+                                <li class="fragment">
+                                    <strong class="highlight">1</strong> &times; <code>ol.View</code>
+                                </li>
+                                <li class="fragment">
+                                    <strong class="highlight">n</strong> &times; <code>ol.interaction.<span class="unhighlight">Zzz</span></code>
+                                </li>
+                                <li class="fragment">
+                                    <strong class="highlight">n</strong> &times; <code>ol.control.<span class="unhighlight">Yyy</span></code>
+                                </li>
+                                <li class="fragment">
+                                    <strong class="highlight">n</strong> &times; <code>ol.layer.<span class="unhighlight">Xxx</span></code>
+                                    <ul>
+                                        <li class="fragment">
+                                            <strong class="highlight">1</strong>  &times; <code>ol.source.<span class="unhighlight">Xxx</span></code>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>50.000 coordinates</h2>
+                    <div class="stretch">
+                        <iframe width="100%" height="100%"
+                            src="http://ol3js.org/en/master/examples/igc.html">
+                        </iframe>
+                    </div>
+                    <!-- <a href="http://ol3js.org/en/master/examples/simple.html" target="_blank">
+                        <img src="./images/igc-example.png">
+                        ol3js.org/en/master/examples/igc.html
+                    </a> -->
+                </section>
+
+                <section>
+                    <h2>Code</h2>
+                    <pre><code class="javascript" contenteditable>
+  var vectorSource = new ol.source.IGC({
+    urls: [
+      'data/igc/Clement­Latour.igc' // etc.
+    ]
+  });
+
+  var styleFunction = function(feature, resolution) {
+    // ...
+    return styleArray;
+  };
+
+  var layer = new ol.layer.Vector({
+    source: vectorSource,
+    styleFunction: styleFunction
+  });
+                    </code></pre>
+                </section>
+
+                <section>
+                    <h2>Drag & Drop / Formats</h2>
+                    <div class="stretch">
+                        <iframe width="100%" height="100%"
+                            src="http://ol3js.org/en/master/examples/drag-and-drop.html">
+                        </iframe>
+                    </div>
+                    <!-- <a href="http://ol3js.org/en/master/examples/simple.html" target="_blank">
+                        <img src="./images/drag-drop.png">
+                        ol3js.org/en/master/examples/drag-and-drop.html
+                    </a> -->
+                </section>
+
+<!--                 <section>
+                    <h2>Code 1</h2>
+                    <pre><code class="javascript" contenteditable>
+  // Erzeugung einer spezifischen Interaktion:
+  var dragAndDropInteraction = new ol.interaction.DragAndDrop({
+    formatConstructors: [
+      ol.format.GPX,
+      ol.format.GeoJSON // ..
+    ]
+  });
+
+  // Erweitern der Standardinteraktionen &
+  // Erzeugung der Karte mit den Interaktionen 
+  var interactions = ol.interaction.defaults(); 
+  var map = new ol.Map({ 
+    interactions: interactions.extend([ dragNDropInteraction ]), 
+    // ... 
+  }
+                    </code></pre>
+                </section> -->
+
+<!--                 <section>
+                    <h2>Code 2</h2>
+                    <pre><code class="javascript" contenteditable>
+dragAndDropInteraction.on('addfeatures', function(event) {
+  var vectorSource = new ol.source.Vector({
+    features: event.features,
+    projection: event.projection
+  });
+  map.getLayers().push(new ol.layer.Vector({
+    source: vectorSource,
+    style: styleFunction
+  }));
+  var view2D = map.getView().getView2D();
+  view2D.fitExtent(vectorSource.getExtent(), map.getSize());
+});
+                    </code></pre>
+                </section> -->
+
+                <section>
+                    <h1>Highlights</h1>
+                </section>
+
+                <section>
+                    <h2>Performance Replay-API</h2>
+                    <div class="stretch">
+                        <iframe width="100%" height="100%"
+                            src="http://ol3js.org/en/master/examples/fractal.html">
+                        </iframe>
+                    </div>
+                    <!-- <a href="http://ol3js.org/en/master/examples/fractal.html" target="_blank">
+                        <img src="./images/fractal.png">
+                        http://ol3js.org/en/master/examples/fractal.html
+                    </a> -->
+                </section>
+
+                <section>
+                    <h1><strong class="highlight">786.433</strong><br>Points!</h1>
+                </section>
+
+                <section>
+                    <h2>Performance R-Tree</h2>
+                    <a href="https://github.com/mourner/rbush" target="_blank">
+                        <img src="./images/rbush.png">
+                        https://github.com/mourner/rbush
+                    </a>
+                </section>
+                <section>
+                    <h2>pre-/postcompose API</h2>
+                    
+                    <div class="stretch">
+                        <iframe width="100%" height="100%"
+                            src="http://ol3js.org/en/master/examples/layer-spy.html">
+                        </iframe>
+                    </div>
+                    
+                    <!-- <a href="http://ol3js.org/en/master/examples/layer-spy.html" target="_blank">
+                        <img src="./images/layer-spy.png">
+                        http://ol3js.org/en/master/examples/layer-spy.html
+                    </a> -->
+                </section>
+
+                <!-- <section>
+                    <h2>pre-/postcompose API</h2>
+                    <pre><code class="javascript" contenteditable>// Clipping vor dem Rendern
+imagery.on('precompose', function(event) {
+  var ctx = event.context;
+  ctx.save();
+  ctx.beginPath();
+  if (mousePosition) {
+    // nur den Umkreis des Mauscursors zeigen
+    ctx.arc(mousePosition[0], mousePosition[1], radius, 0, 2 * Math.PI);
+    ctx.lineWidth = 5;
+    ctx.strokeStyle = 'rgba(0,0,0,0.5)';
+    ctx.stroke();
+  }
+  ctx.clip();
+});
+
+// Aufräumen nach dem Rendern
+imagery.on('postcompose', function(event) {
+  var ctx = event.context;
+  ctx.restore();
+});
+                    </code></pre>
+                </section> -->
+                
+                <section>
+                    <h1><span class="force-lowercase">v</span>3.0.0</h1>
+                </section>
+
+                <section>
+                    <h2><span lang="en">TODO</span></h2>
+                    <ul>
+                        <li>API review</li>
+                        <li>API can and will change</li>
+                        <li>API stability</li>
+                        <li>API docs</li>
+                        <li>Custom-build-Tool</li>
+                        <li>v3.0.0 is near</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2><span lang="en">Ready for production</span></h2>
+                    <a href="http://map.geo.admin.ch/">
+                        <img src="./images/swisstopo.png" />
+                        map.geo.admin.ch
+                    </a>,
+                    <a href="https://github.com/geoadmin/mf-geoadmin3" class="github">Code</a>
+                </section>
+
+                <section>
+                    <h1>When will it ship?</h1>
+                </section>
+
+                <section>
+                    <h4>Milestone 3.0.0 is due &hellip;</h4>
+                    <h1 style="margin: 100px auto;" class="highlight fragment roll-in">
+                        &hellip; 2014-08-21 &hellip;
+                    </h1>
+                    <h4 class="fragment roll-in">&hellip; ± <span class="force-lowercase">n</span> months <span class="highlight">😇</span></h4>
+                </section>
 
                 <section id="thanks">
                     <h3>Thank you</h3>
@@ -134,6 +568,12 @@
                         </li>
                         <li>
                             License: <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+                        </li>
+                        <li>
+                            This talk is a derived work of the talk "OpenLayers
+                            3 &mdash; Einführung, Verwendungsbeispiele und 
+                            technische Highlights" by Marc Jansen &amp; Andreas
+                            Hocevar, held at the FOSSGIS 2014.
                         </li>
                         <li>
                             <a href="http://terrestris.github.io/foss4g-e-2014/openlayers3">Slideshow (HTML5)</a>

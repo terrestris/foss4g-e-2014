@@ -12,8 +12,8 @@
 }
 
 .reveal section h2 {
-    border-bottom: 1px inset #333;
-    margin-bottom: 0.5em;
+    /* border-bottom: 1px inset #333;
+    margin-bottom: 0.5em; */
 }
 
 .reveal section p.subtle {
